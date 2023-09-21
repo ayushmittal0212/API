@@ -27,6 +27,7 @@ api=Api(app)
 class Demo(Resource):
     def get(self):
         print('GET')
+        return True
         # print(request.args)
         # re=dict(request.args)
         # sql="select * from t1 where username='{username}'".format(username=re['username'])
