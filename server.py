@@ -1,6 +1,6 @@
 from flask import Flask,request, jsonify,json
 from flask_restful import Api,Resource
-import mysql.connector as sql
+# import mysql.connector as sql
 
 # cobj=sql.connect(host='localhost',user='root',passwd='Ayush@123')
 # if(cobj.is_connected):
